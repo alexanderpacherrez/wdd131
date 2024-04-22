@@ -40,6 +40,10 @@ main {
     color: white;
 }
 
+img {
+    width: 250px;
+}
+
 aside {
     height: 400px;
     background-color: blueviolet;
