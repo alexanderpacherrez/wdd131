@@ -1,31 +1,31 @@
 body {
     display: grid;
-    height: 100vh;
-    grid-template: auto 1fr auto;
-    margin: 0;
+    grid-template: 1frauto / 500px 1fr;
 }
 
 header {
+    display: flex;
     margin: 0;
     width: 100%;
     height: 200px;
     background-color: brown;
     color: white;
+    grid-column: 1/4;
+}
+main {
+    background-color: aqua;
+    grid-column: 1/3;
 }
 
-
-
-header {
-    width: 100%;
-    height: 200px;
-    background-color: brown;
-    color: white;
+aside {
+    background-color: blueviolet;
+    grid-column: 3/4;
 }
 
 footer {
-    display: grid;
     width: 100%;
     height: 100px;
     background-color: blue;
     color: white;
+    grid-column: 1/4;
 }
