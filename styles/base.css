@@ -46,7 +46,7 @@ nav a {
 
 li:hover {
     border: 1px solid #fff;
-    background-color: rgba(70, 33, 220, 0.536);
+    background-color: rgba(76, 41, 199, 0.536);
 }
 
 /*MAIN*/
@@ -69,7 +69,8 @@ img {
 }
 
 .about-me {
-    background-color: rgba(74, 74, 136, 0.316);
+    background-color: rgba(184, 184, 220, 0.316);
+    border-width: 1000px;
     margin-right: 20px;
     margin-left: 100px;
     padding: 1px;
@@ -87,4 +88,8 @@ img {
 
 footer {
     background-color: var(--primary-color);
+}
+
+p {
+    text-align: center;
 }
