@@ -7,7 +7,8 @@
 }
 
 :root {
-    --primary-color:rgb(82, 91, 211);
+    --primary-color:rgba(94, 98, 147, 0.526);
+    --secondary-color:rgba(4, 12, 105, 0.942);
 }
 
 body {
@@ -33,7 +34,7 @@ h1 {
 }
 
 .name {
-    color: yellow;
+    color: black;
 }
 
 nav {
@@ -69,7 +70,7 @@ nav a:hover {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     font-size: 25px;
 }
@@ -151,5 +152,9 @@ footer {
 
 footer p {
     font-size: 18px;
+    color: black;
 }
 
+#currentyear {
+    font-size: 18px;
+}
