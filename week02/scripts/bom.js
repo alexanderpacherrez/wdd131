@@ -10,3 +10,8 @@ deleteButton.textContent = "❌";
 
 newLi.append(deleteButton);
 list.append(newLi);
+
+button.addEventListener("click", function(); {
+    if ()
+
+}
