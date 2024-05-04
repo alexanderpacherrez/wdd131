@@ -76,9 +76,21 @@ h2 {
 }
 
 img {
-    width: 300px;
+    width: 400px;
 }
+
+figcaption {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 0.8em;
+        font-family: Merriweather;
+        padding-bottom: 20px;
+
+}
+
 
 footer {
     background-color: blue;
+    height: 100px;
+    text-align: center;
 }
