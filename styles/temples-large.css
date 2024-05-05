@@ -1,1 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* CSS for large screens */
+@media screen and (min-width: 750px) {
+
+h2 {
+    font-size: 29px;
+}
+
+#ham-menu {
+    display: none;
+    }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigation {
+        max-width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+.wrap {
+    flex-wrap: wrap;
+}
+    
+.navigation a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+    
+.navigation a:hover {
+    border: 1px solid steelblue;
+    color: green;
+}
+}

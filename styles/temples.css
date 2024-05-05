@@ -6,8 +6,15 @@
     box-sizing: border-box;
  }
 
+:root {
+    --primary-color: rgb(46, 7, 97);
+    --secondary-color: rgb(8, 70, 41);
+    --third-color: #fff;
+}
+
+
 body {
-    font-family: Merriweather;
+    font-family: "Merriweather";
 }
 
 header {
@@ -15,7 +22,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 0.5rem;
-    background-color: rgb(75, 13, 155);
+    background-color: var(--primary-color);
     align-items: center;
     padding: 20px;
 }
@@ -38,10 +45,10 @@ li {
 }
 
 a {
-    color: white;
+    color: var(--third-color);
     text-decoration: none;
     font-size: 1.5em;
-    font-family: Merriweather;
+    font-family: "Merriweather";
 
  }
 nav a:hover {
@@ -49,48 +56,52 @@ nav a:hover {
 }
 
 h1 {
-    color: white;
+    color: var(--third-color);
     font-size: 2.3em;
 }
 
-main {
-    margin: 10px;
-
-}
+/**/
 
 h2 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: var(--secondary-color);
     font-size: 2.3em;
-    font-family: Merriweather;
-    padding-bottom: 20px;
+    font-family: "Merriweather";
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .temples {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1em;
     
 }
 
 img {
+    text-align: center;
     width: 400px;
 }
 
-figcaption {
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-size: 0.8em;
-        font-family: Merriweather;
-        padding-bottom: 20px;
-
+figure {
+    border: 1px solid #5b0d72;
+    padding: 4px;
+    margin: auto;
 }
 
+figcaption {
+        color: var(--primary-color);
+        font-size: 1.2em;
+        font-family: Merriweather;
+        text-align: center;
+}
 
 footer {
-    background-color: blue;
-    height: 100px;
+    background-color: var(--primary-color);
+    height: 70px;
     text-align: center;
+    color: var(--third-color);
+    font-size: 1.4em;
+    margin-top: 20px;
 }
+
