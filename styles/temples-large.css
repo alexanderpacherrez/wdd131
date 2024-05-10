@@ -1,0 +1,29 @@
+@media screen and (min-width: 700px)
+{
+.barrita {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+ul {
+    display: flex;  
+}
+    
+li {
+    list-style: none;
+    padding: 10px;
+    padding-right: 120px;
+    color: var(--third-color);
+}
+    
+a {
+    color: var(--third-color);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Merriweather";
+}
+
+
+}
+
