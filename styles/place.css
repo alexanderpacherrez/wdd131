@@ -31,11 +31,15 @@ img {
 }
 
 h2 {
+  font-size: 1.6em;
+  padding: 10px;
   text-align: center;
+  
 }
 
 p {
-  font-size: 1.2em;  padding: 20px;
+  font-size: 1.3em;
+  padding: 20px;
   text-align: start;
 }
 
