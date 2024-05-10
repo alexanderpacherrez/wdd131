@@ -1,8 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(137, 45, 142);
+  --text-color: white;
+}
+
+header {
+  background-color: rgb(137, 45, 142);
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 3em;
+  padding: 5px;
+  text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
+
   }
 
-  .weather img {
+.weather img {
     width: 100px;
-  }
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 1.5em;
+  text-align: center;
+}
