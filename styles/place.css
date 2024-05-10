@@ -20,21 +20,65 @@ h1 {
   text-align: center;
 }
 
-img {
-    width: 100%;
-    height: auto;
+main {
+  background-color: rgb(8, 101, 101);
+  padding: 10px;
+}
 
-  }
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  width: 300px;
+  top: 200px;
+  left: 50px;
+  border: 3px solid #73AD21;
+  background-color: var(--text-color);
+}
+
+.weather {
+  position: absolute;
+  width: 300px;
+  top: 600px;
+  right: 50px;
+  border: 3px solid #73AD21;
+  background-color: var(--text-color);
+}
 
 .weather img {
-    width: 100px;
+  width: 100px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+h2 {
+  padding: auto;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;  padding: 20px;
+  text-align: start
 }
 
 footer {
   background-color: var(--primary-color);
+  height: 75px;
+}
+
+footer p {
   color: var(--text-color);
   font-size: 1.5em;
   text-align: center;
+  padding: 5px;
 }
 
 
