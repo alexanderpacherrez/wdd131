@@ -9,8 +9,8 @@
   --text-color: white;
 }
 
-header {
-  background-color: rgb(137, 45, 142);
+body {
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -21,8 +21,8 @@ h1 {
 }
 
 main {
-  background-color: rgb(8, 101, 101);
-  padding: 10px;
+  padding-top: 15px;
+  background-color: rgb(195, 4, 4);
 }
 
 img {
@@ -54,12 +54,13 @@ footer p {
 /*-------------------------------------*/
 .info {
   background-color: whitesmoke;
-  border: 3px solid var(--primary-color);
+  border: 1px solid rgb(195, 4, 4);
+  border-top: none;
 }
 
 .weather {
   background-color: whitesmoke;
-  border: 3px solid var(--primary-color);
+  border: 1px solid rgb(195, 4, 4);
 }
 
 .weather img {
