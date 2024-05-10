@@ -8,6 +8,7 @@
   --primary-color: rgb(137, 45, 142);
   --text-color: white;
 }
+/*--GENERAL--*/
 
 body {
   background-color: var(--primary-color);
@@ -22,7 +23,7 @@ h1 {
 
 main {
   padding-top: 15px;
-  background-color: rgb(195, 4, 4);
+  background-color: rgba(31, 98, 48, 0.422);
 }
 
 img {
@@ -35,19 +36,15 @@ h2 {
   padding: 10px;
   text-align: center;
   background-color: rgba(31, 98, 48, 0.422);
-  
 }
 
 p {
-  font-size: 1.3em;
-  padding: 20px;
+  font-size: 1.1em;
+  margin: 10px;
+  padding: 5px;
   text-align: start;
 }
 
-footer {
-  background-color: var(--primary-color);
-  height: 75px;
-}
 
 footer p {
   color: var(--text-color);
@@ -56,10 +53,10 @@ footer p {
   padding: 5px;
 }
 
-/*-------------------------------------*/
+/*SCREEN MIN:700PX*/
 .info {
   background-color: whitesmoke;
-  border: 1px solid rgb(195, 4, 4);
+  border: 1px solid var(--primary-color);
   border-top: none;
 }
 
