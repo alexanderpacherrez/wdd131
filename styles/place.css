@@ -33,7 +33,7 @@ img {
 h2 {
   font-size: 1.6em;
   padding: 10px;
-  text-align: start;
+  text-align: center;
   background-color: rgba(31, 98, 48, 0.422);
   
 }
@@ -64,12 +64,13 @@ footer p {
 }
 
 .weather {
+  display: flex;
+  flex-direction: column;
   background-color: whitesmoke;
   border: 1px solid rgb(195, 4, 4);
 }
 
 .weather img {
   width: 100px;
-  position: absolute;
-  right: 20px;
+  align-self: center;
 }

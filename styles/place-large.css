@@ -33,4 +33,11 @@
     background-color: rgba(8, 101, 101, 0.556);
 }
 
+h2 {
+    font-size: 1.6em;
+    padding: 10px;
+    text-align: start;
+    background-color: rgba(31, 98, 48, 0.422);
+    
+}
 }
