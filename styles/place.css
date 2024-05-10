@@ -61,8 +61,8 @@ img {
 }
 
 h2 {
-  padding: auto;
   text-align: center;
+  text-decoration: underline;
 }
 
 p {
