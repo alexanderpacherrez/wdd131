@@ -22,9 +22,15 @@
 }
   
 .weather img {
-    width: 100px;
+    width: 50px;
     position: absolute;
-    right: 20px;
+    top: 0px;
+    right: 220px;
+
+}
+
+.weather img:hover{
+    background-color: rgba(8, 101, 101, 0.556);
 }
 
 }
