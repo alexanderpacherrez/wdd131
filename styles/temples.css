@@ -7,9 +7,8 @@
  }
 
 :root {
-    --primary-color: #8e0675;
+    --primary-color: #50b300;
     --secondary-color: rgb(8, 70, 41);
-    --third-color: #fff;
 }
 
 
@@ -18,11 +17,12 @@ body {
 }
 
 header {
+
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
     grid-gap: 0.2rem;
-    background-color: var(--primary-color);
+    height: auto;
+    
     align-items: center;
     padding: 20px;
 }
@@ -31,7 +31,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: var(--third-color);
 }
 
 ul {
@@ -42,11 +41,11 @@ li {
     list-style: none;
     padding: 10px;
     padding-right: 120px;
-    color: var(--third-color);
+    
 }
 
 a {
-    color: var(--third-color);
+    color: black;
     text-decoration: none;
     font-size: 1.5em;
     font-family: "Merriweather";
@@ -58,7 +57,7 @@ nav a:hover {
 }
 
 h1 {
-    color: var(--third-color);
+    color: black;
     font-size: 2.3em;
 }
 
@@ -92,15 +91,14 @@ figure {
 }
 
 figcaption {
-        color: var(--primary-color);
+    color: var(--secondary-color);
         font-size: 1.2em;
         font-family: Merriweather;
         text-align: center;
 }
 
 footer {
-    background-color: var(--primary-color);
-    height: 100px;
+    height: auto;
     text-align: center;
     color: var(--third-color);
     font-size: 1.4em;
