@@ -55,7 +55,7 @@ footer p {
   padding: 5px;
 }
 
-/*SCREEN MIN:700PX*/
+/*SCREEN MIN:600PX*/
 .info {
   background-color: whitesmoke;
   border: 1px solid var(--primary-color);

@@ -1,0 +1,21 @@
+/*SCREEN MIN:700PX*/
+
+@media screen and (min-width: 600px){
+.info {
+  background-color: whitesmoke;
+  border: 1px solid var(--primary-color);
+  border-top: none;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 1px solid rgb(195, 4, 4);
+}
+
+.weather img {
+  width: 100px;
+  align-self: center;
+}
+}
