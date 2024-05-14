@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+:root {
+    --primary-color: #50b300;
+    --secondary-color: rgb(8, 70, 41);
+}
+
+
+body {
+    font-family: "Merriweather";
+}
+
+header {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 0.2rem;
+    height: auto;
+    
+    align-items: center;
+    padding: 20px;
+}
+
+.barrita {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;  
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    padding-right: 120px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Merriweather";
+
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+    color: black;
+    font-size: 2.3em;
+}
+
+/**/
+
+h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 2.3em;
+    font-family: "Merriweather";
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.temples {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1em;
+    
+}
+
+img {
+    text-align: center;
+    width: 400px;
+}
+
+figure {
+    border: 1px solid #5b0d72;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    color: var(--secondary-color);
+        font-size: 1.2em;
+        font-family: Merriweather;
+        text-align: center;
+}
+
+footer {
+    height: auto;
+    text-align: center;
+    color: var(--third-color);
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
