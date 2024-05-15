@@ -63,7 +63,30 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
-    // Add more temple objects here...
+    {
+      templeName: "Accra Ghana",
+      location: "Accra, Ghana",
+      dedicated: "2004, January, 11",
+      area: 17300,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+    },
+    {
+      templeName: "Buenos Aires Argentina Temple",
+      location: "Buenos Aires, Argentina",
+      dedicated: "1986, January, 17",
+      area: 30659,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/buenos-aires-argentina/400x250/buenos-airies-argentina-temple-1009069-wallpaper.jpg"
+    },
+    {
+      templeName: "Córdoba Argentina Temple",
+      location: "Córdoba, Argentina",
+      dedicated: "2015, May, 17",
+      area: 34369,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cordoba-argentina/400x250/cordoba-argentina-temples-buildings-1436933-wallpaper.jpg"
+    },
   ];
 
 
