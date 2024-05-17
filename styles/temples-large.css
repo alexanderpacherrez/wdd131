@@ -4,12 +4,12 @@ header {
         display: flex;
         justify-content: space-between;
         height: auto;
-        background-color: var(--background);
-        
+        background-color: var(--background); 
 }
 
 nav {
-    display: flex; 
+    display: flex;
+    flex-direction: row;
 }
     
 a {
@@ -19,6 +19,10 @@ a {
     font-family: "Merriweather";
     margin: 10px;
     text-wrap: wrap;
+}
+
+#hambutton {
+    display: none;
 }
 
 }

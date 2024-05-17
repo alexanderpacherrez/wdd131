@@ -12,10 +12,40 @@
     --background: aquamarine;
 }
 
-
 body {
     font-family: "Merriweather";
 }
+
+header {
+    display: block;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    background-color: var(--background); 
+}
+
+a {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.7em;
+}
+
+#hambutton {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+
+#hambutton::before {
+	content: "☰";
+}
+
 
 /* header {
 
