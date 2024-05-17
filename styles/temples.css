@@ -7,8 +7,9 @@
  }
 
 :root {
-    --primary-color: #50b300;
-    --secondary-color: rgb(8, 70, 41);
+    --primary-color: #162d03;
+    --text-color: rgb(8, 70, 41);
+    --background: aquamarine;
 }
 
 
@@ -16,7 +17,7 @@ body {
     font-family: "Merriweather";
 }
 
-header {
+/* header {
 
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -51,21 +52,24 @@ a {
     font-family: "Merriweather";
 
 }
-
+*/
 nav a:hover {
 	text-decoration: underline;
-}
+    color: var(--primary-color);
+} 
 
 h1 {
     color: black;
+    color: var(--text-color);
     font-size: 2.3em;
+    margin: 10px;
 }
 
 /**/
 
 h2 {
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-size: 2.3em;
     font-family: "Merriweather";
     padding-top: 30px;
@@ -99,9 +103,11 @@ figcaption {
 
 footer {
     height: auto;
+    color: var(--text-color);
     text-align: center;
-    color: var(--third-color);
+    background-color: var(--background);
     font-size: 1.4em;
     margin-top: 20px;
+
 }
 
