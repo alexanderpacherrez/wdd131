@@ -118,8 +118,7 @@ function createTempleCard(FilteredTemples) {
     document.querySelector(".res-grid").appendChild(card);
 
 
-  }
-  )
+  });
 }
 
 
