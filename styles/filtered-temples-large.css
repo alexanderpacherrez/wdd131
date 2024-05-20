@@ -1,0 +1,28 @@
+@media screen and (min-width: 850px)
+{
+header {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        background-color: var(--background); 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+    
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 2.1em;
+    font-family: "Merriweather";
+    margin: 10px;
+    text-wrap: wrap;
+}
+
+#hambutton {
+    display: none;
+}
+
+}

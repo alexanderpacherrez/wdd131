@@ -7,51 +7,62 @@
  }
 
 :root {
-    --primary-color: #50b300;
-    --secondary-color: rgb(8, 70, 41);
+    --primary-color: #162d03;
+    --text-color: rgb(8, 70, 41);
+    --background: aquamarine;
 }
-
 
 body {
     font-family: "Merriweather";
 }
 
-
 header {
-        display: flex;
-        justify-content: space-between;
-        height: auto;
-        background-color: var(--background);
-        
+    display: block;
+    
 }
 
 nav {
-    display: flex; 
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    background-color: var(--background); 
 }
-    
+
 a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 2.1em;
-    font-family: "Merriweather";
+    text-align: center;
     margin: 10px;
-    text-wrap: wrap;
+    font-size: 1.7em;
+}
+
+#hambutton {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+
+#hambutton::before {
+	content: "☰";
 }
 
 nav a:hover {
 	text-decoration: underline;
-}
+    color: var(--primary-color);
+} 
 
 h1 {
     color: black;
+    color: var(--text-color);
     font-size: 2.3em;
+    margin: 10px;
 }
 
 /**/
 
 h2 {
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-size: 2.3em;
     font-family: "Merriweather";
     padding-top: 30px;
@@ -85,9 +96,11 @@ figcaption {
 
 footer {
     height: auto;
+    color: var(--text-color);
     text-align: center;
-    color: var(--third-color);
+    background-color: var(--background);
     font-size: 1.4em;
     margin-top: 20px;
+
 }
 

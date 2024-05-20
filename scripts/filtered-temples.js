@@ -87,9 +87,9 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cordoba-argentina/400x250/cordoba-argentina-temples-buildings-1436933-wallpaper.jpg"
     },
-  ];
+];
 
-createTempleCard(temples);
+createTempleCard();
 
 function createTempleCard(FilteredTemples) {
   document.querySelector(".res-grid").innerHTML = "";
