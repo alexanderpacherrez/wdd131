@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121111;
+}
+
+h1 {
+    color: #FDBB08;
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+}
+
+header p {
+    color: #FDBB08;
+    text-align: center;
+}
+
+h2 {
+    color: #FF3D3D;
+    font-family: Montserrat Bold 700;
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+a {
+    font-size: 1.4em;
+    margin-left: 10px;
+    color: #FDFAF2;
+}
+
+p {
+    margin: 10px;
+    color: #FDFAF2;
+    font-family: Montserrat Bold 700;
+    font-size: 1.4em;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 500px; 
+}
