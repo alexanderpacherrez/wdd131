@@ -11,18 +11,18 @@
 </head>
 <body>
     <main>
-    <h1>Product Review</h1>
+        <header><h1>Product Review</h1></header>
     <form method="get" action="review.html">
         <fieldset>
             <legend>Product Name</legend>
             <label>
-                <select id="products" name="products" required>
-                        <option value="" disabled>Select a Product ...</option>
-                    <option value="">.</option>
-                    <option value="">.</option>
-                    <option value="">.</option>
-                    <option value="">.</option>
-                    <option value="">.</option>
+                <select name="products" id="products" required>
+                        <option value="" disabled selected>Select a Product ...</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
                 </select>
             </label>
         </fieldset>
@@ -44,15 +44,15 @@
         <fieldset>
             <legend>Which features did you find useful in the product?<br>
             (Check all that apply)</legend>
-            <label><input type="checkbox" name="Durability" id="features" value="yes">Durability</label>
-            <label><input type="checkbox" name="Ease of Use" id="features" value="yes">Ease of Use</label>
-            <label><input type="checkbox" name="Perfomance" id="features" value="yes">Perfomance</label>
-            <label><input type="checkbox" name="Design" id="features" value="yes">Design</label>
+            <label><input type="checkbox" name="Durability" id="featureone" value="yes">Durability</label>
+            <label><input type="checkbox" name="Ease of Use" id="featuretwo" value="yes">Ease of Use</label>
+            <label><input type="checkbox" name="Perfomance" id="featurethree" value="yes">Perfomance</label>
+            <label><input type="checkbox" name="Design" id="featurefour" value="yes">Design</label>
         </fieldset>
 
         <fieldset>
             <legend>Written Review (Optional)</legend>
-            <label><input type="textarea" id="written" name="written"></label>
+            <textarea id="review" name="review"></textarea>
         </fieldset>
 
         <fieldset>
@@ -64,7 +64,7 @@
 
     </form>        
     </main>
-    
+
     <footer>
         <p>© <span id="currentyear">2024</span>🤠Alexander Pacherrez🤠Perú</p>
         <p>Last Modified: <span id="lastModified"></span></p>
