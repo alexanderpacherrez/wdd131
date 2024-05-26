@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="description" content="My Form">
+    <meta name="author" content="Alexander Pacherrez Berru">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <main>
+    <h1>Product Review</h1>
+    <form method="get" action="review.html">
+        <fieldset>
+            <legend>Product Name</legend>
+            <label>
+                <select id="products" name="products" required>
+                        <option value="" disabled>Select a Product ...</option>
+                    <option value="">.</option>
+                    <option value="">.</option>
+                    <option value="">.</option>
+                    <option value="">.</option>
+                    <option value="">.</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Overall Rating</legend>
+            <label><input type="radio" name="Overall" value="one" required>&star;</label>
+            <label><input type="radio" name="Overall" value="one" required>&star;&star;</label>
+            <label><input type="radio" name="Overall" value="one" required>&star;&star;&star;</label>
+            <label><input type="radio" name="Overall" value="one" required>&star;&star;&star;&star;</label>
+            <label><input type="radio" name="Overall" value="one" required>&star;&star;&star;&star;&star;</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Date of Installation</legend>
+            <label><input type="date" id="completeDate" name="completeDate" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which features did you find useful in the product?<br>
+            (Check all that apply)</legend>
+            <label><input type="checkbox" name="Durability" id="features" value="yes">Durability</label>
+            <label><input type="checkbox" name="Ease of Use" id="features" value="yes">Ease of Use</label>
+            <label><input type="checkbox" name="Perfomance" id="features" value="yes">Perfomance</label>
+            <label><input type="checkbox" name="Design" id="features" value="yes">Design</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Written Review (Optional)</legend>
+            <label><input type="textarea" id="written" name="written"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Name (Optional)</legend>
+            <label><input type="text" id="name" name="name"></label>
+        </fieldset>
+
+        <input type="submit" value="Post Review"> 
+
+    </form>        
+    </main>
+    <footer>
+        <p>© <span id="currentyear">2024</span>🥳 Alexander Pacherrez 🥳 Piura - Perú</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
