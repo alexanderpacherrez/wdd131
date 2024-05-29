@@ -1,5 +1,10 @@
 @media screen and (min-width: 850px)
 {
+
+.galery {
+        grid-template-columns: 1fr 1fr;
+}
+
 header {
         display: flex;
         justify-content: space-between;
