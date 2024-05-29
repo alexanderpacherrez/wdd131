@@ -46,64 +46,46 @@ option {
     font-size: 1.2em;
 }
 
-input[type=radio] {width: auto;
+input[type=radio] {
+    width: auto;
     height: 15px;
+    margin-right: 2px;
 }
 
 
 input[type=date] {background-color: #e5e5e9;
-    width: 300px;
+    width: 95%;
     height: 30px;
     font-size: 1.2em;
-    text-align: center;
     
 }
 
 input[type=checkbox] {background-color: #efac3e;
-    width: 30px;
 }
 
 textarea {
     background-color: #e5e5e9;
-    width: 300px;
+    width: 94%;
     height: 70px;
     font-size: 1.2em;
-    margin-left: 20px;
+    margin: 10px 2% 10px 1%
 }
 
 input[type=text] {background-color: #e5e5e9;
-    width: 300px;
+    width: 94%;
     height: 70px;
     font-size: 1.2em;
+    margin: 10px 2% 10px 1%
 } 
 
 input[type=submit] {background-color: #3b3ba5;
-    width: 95%;
-    height: auto;
+    width: 96%;
+    height: 40px;
     font-size: 1.2em;
     border-radius: 8px;
     color: white;
-    margin-left: 30px;
+    margin: 0 2% 10px 2%
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     height: auto;
@@ -114,3 +96,42 @@ footer {
     margin-top: 20px;
 
 }
+
+@media screen and (max-width: 800px){
+    .formulario {
+        margin: 5px;
+        background-color: var(--background);
+    }
+
+    input[type=radio] {display: flex;
+    }
+
+    input[type=checkbox] {display: flex;
+    }
+
+    input[type=submit] {background-color: #3b3ba5;
+        width: 95%;
+        height: auto;
+        font-size: 1.2em;
+        border-radius: 8px;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
