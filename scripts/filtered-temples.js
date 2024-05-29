@@ -92,7 +92,7 @@ const temples = [
 /*menu*/
 let itemMenu = document.querySelectorAll('.random-menu');
 
-itemMenu.forEach( menu => {
+ItemMenu.forEach( menu => {
   menu.addEventListener( 'click', function(){
     let menuRel = menu.getAttribute('rel');
     let filteredData;
@@ -107,9 +107,9 @@ itemMenu.forEach( menu => {
     }
     else if(menuRel == 'large' || menuRel == 'small'){
       if( menuRel == 'large') {
-        filteredData = temples.filter( temple => temple.area>90000);
+        filteredData = temples.filter( temple => temple.area>900000);
       }else{
-        filteredData = temples.filter( temple =>temple.area<10000);
+        filteredData = temples.filter( temple =>temple.area<100000);
       }
 
     }
