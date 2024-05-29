@@ -89,6 +89,45 @@ const temples = [
     },
 ];
 
+/*menu*/
+let itemMenu = document.querySelectorAll('.random-menu');
+
+itemMenu.forEach( menu => {
+  menu.addEventListener( 'click', function(){
+    let menuRel = menu.getAttribute('rel');
+    let filteredData;
+    if( menuRel == 'old' || menuRel == 'new' )
+    {
+      // console.log(temple.dedicated.getFullYear());
+      if( menuRel == 'old') {
+        filteredData = temples.filter(temple => !checkOldNew(temple.dedicated));
+      }else{
+        filteredData = temples.filter(temple => checkOldNew(temple.dedicated));
+      }
+    }
+    else if(menuRel == 'large' || menuRel == 'small'){
+      if( menuRel == 'large') {
+        filteredData = temples.filter( temple => temple.area>90000);
+      }else{
+        filteredData = temples.filter( temple =>temple.area<10000);
+      }
+
+    }
+    else {
+      //home
+      filteredData = temples.filter( temple => temple !== undefined );
+    }
+    
+    createTemplateCard(filteredData);
+  });
+});
+
+function checkOldNew( dateOldNew ) {
+  const date1 = new Date(dateOldNew)
+  return date1.getFullYear() > 1999;
+}
+
+/*Temple Card*/
 createTempleCard(temples);
 
 function createTempleCard(filteredTemples) {
