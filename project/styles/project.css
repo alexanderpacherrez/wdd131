@@ -10,14 +10,22 @@
     --color-text: #FDFAF2;
     --color-titles: #FDBB08;
     --background: #121111;
-    --color-links: FF3D3D;
+    --color-links: #FF3D3D;
 }
 
 body {
     background-color: #121111;
 }
 
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
+a {
+    color: var(--color-links);
+}
 
 
 h1 {
