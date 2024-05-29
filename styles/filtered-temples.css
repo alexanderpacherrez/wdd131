@@ -60,38 +60,41 @@ h1 {
 
 /**/
 
-h2 {
+main {    
+    margin: 0 auto;    
+}
+.res-grid {
+   display: flex;
+   flex-wrap: wrap;   
+   flex-direction: row;   
+   justify-content: space-evenly;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--tertiary-color);
+    margin-bottom: 20px;
+    padding: 10px 25px;
+}
+
+
+section img {
+    object-fit: cover;
+}
+
+section h3, section a, section p {
     text-align: center;
-    color: var(--text-color);
-    font-size: 2.3em;
-    font-family: "Merriweather";
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 5px;
 }
 
-.temples {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 1em;
-    
+.label {
+    font-weight: bold;
 }
 
-img {
-    text-align: center;
-    width: 400px;
-}
-
-figure {
-    border: 1px solid #5b0d72;
-    padding: 4px;
-    margin: auto;
-}
-
-figcaption {
-    color: var(--secondary-color);
-        font-size: 1.2em;
-        font-family: Merriweather;
-        text-align: center;
+@media only screen and (min-width:650px){
+    .galery {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 footer {
