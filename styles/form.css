@@ -27,6 +27,18 @@ h1 {
     height: auto;
 }
 
+fieldset {
+    background-color: rgba(222, 222, 231, 0.51);
+}
+
+legend {
+    margin-bottom: -5px;
+}
+
+input {
+    width: 10px;
+}
+
 
 
 
