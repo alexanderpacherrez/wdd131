@@ -5,9 +5,8 @@
 }
 
 :root {
-    --primary-color: #162d03;
     --text-color: rgb(8, 70, 41);
-    --background: aquamarine;
+    --background: rgb(224, 236, 232);
 }
 
 h1 {
@@ -15,12 +14,12 @@ h1 {
     color: var(--text-color);
     text-align: center;
     font-size: 3em;
-    
     height: auto;
 }
 
 .formulario {
-    margin: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     background-color: var(--background);
     color: var(--text-color);
     width: auto;
@@ -28,17 +27,39 @@ h1 {
 }
 
 fieldset {
-    background-color: rgba(222, 222, 231, 0.51);
+    background-color: var(--background);
 }
 
 legend {
-    margin-bottom: -5px;
+    margin-bottom: -3px;
+    font-size: 1.1em;
 }
 
-input {
-    width: 10px;
+select {
+    width: 200px;
+    height: 30px;
+    background-color: #e5e5e9;
 }
 
+option {
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+input[type=radio] {width: auto;height: 15px;} 
+
+input[type=date] {background-color: #e5e5e9;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+} 
+
+
+input[type=radio] {background-color: #efac3e;} 
+input[type=text] {background-color: #efac3e;} 
+input[type=text] {background-color: #efac3e;} 
 
 
 
