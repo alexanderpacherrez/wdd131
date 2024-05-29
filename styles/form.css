@@ -36,7 +36,7 @@ legend {
 }
 
 select {
-    width: 200px;
+    width: 300px;
     height: 30px;
     background-color: #e5e5e9;
 }
@@ -44,23 +44,47 @@ select {
 option {
     color: black;
     font-size: 1.2em;
-    
 }
 
-input[type=radio] {width: auto;height: 15px;} 
+input[type=radio] {width: auto;
+    height: 15px;
+}
+
 
 input[type=date] {background-color: #e5e5e9;
-    width: 200px;
+    width: 300px;
     height: 30px;
     font-size: 1.2em;
     text-align: center;
+    
+}
+
+input[type=checkbox] {background-color: #efac3e;
+    width: 30px;
+}
+
+textarea {
+    background-color: #e5e5e9;
+    width: 300px;
+    height: 70px;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+input[type=text] {background-color: #e5e5e9;
+    width: 300px;
+    height: 70px;
+    font-size: 1.2em;
 } 
 
-
-input[type=radio] {background-color: #efac3e;} 
-input[type=text] {background-color: #efac3e;} 
-input[type=text] {background-color: #efac3e;} 
-
+input[type=submit] {background-color: #3b3ba5;
+    width: 95%;
+    height: auto;
+    font-size: 1.2em;
+    border-radius: 8px;
+    color: white;
+    margin-left: 30px;
+}
 
 
 
