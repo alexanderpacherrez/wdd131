@@ -57,21 +57,21 @@ h1 {
     font-family: "Montserrat ExtraBold 800";
     position: absolute;
     flex-direction: row;
-    font-size: 2.5em;
-    top: 15px;
+    font-size: 2.1em;
+    top: 2px;
 }
 
 .principal p {
     position: absolute;
-    font-size: 1.5em;
-    top: 80px;
+    font-size: 1.3em;
+    top: 50px;
     color: black;
 }
 
 .principal a {
     position: absolute;
-    font-size: 2.5em;
-    bottom: 20px;
+    font-size: 1.3em;
+    bottom: 1px;
     text-decoration: none;
     border: 3px solid var(--color-links);
     color: var(--color-links)
