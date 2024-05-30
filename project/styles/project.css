@@ -10,9 +10,10 @@
     --color-text: #FDFAF2;
     --color-titles: #FDBB08;
     --background: #121111;
-    --color-links: #FF3D3D;
+    --color-links: #a8ba1c;
 }
 
+/*Header*/
 body {
     background-color: #121111;
 }
@@ -20,23 +21,29 @@ body {
 .items {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
+    color: var(--color-titles);
 }
 
 .items a {
     color: var(--color-links);
-    
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 30px;
+    margin: 10px;
 }
-
 
 h1 {
     color: var(--color-titles);
+    font-size: 3em;
     text-align: center;
     font-family: "Montserrat ExtraBold 800";
+    margin-bottom: 1px;
 }
 
+/*Principal*/
 .principal {
     position: relative;
     display: flex;
@@ -44,37 +51,75 @@ h1 {
     align-items: center;
 }
 
-h2 {
+.principal h2 {
     color: var(--color-titles);
     text-align: center;
     font-family: "Montserrat ExtraBold 800";
     position: absolute;
     flex-direction: row;
+    font-size: 2.5em;
+    top: 5px;
 }
 
 .principal p {
     position: absolute;
+    font-size: 1.5em;
+    top: 80px;
+    color: black;
 }
 
+.principal a {
+    position: absolute;
+    font-size: 2.5em;
+    bottom: 20px;
+    text-decoration: none;
+    border: 3px solid var(--color-links);
+    color: var(--color-links)
+    
+}
+
+.principal img {
+    width: 100%;
+    height: auto;
+}
+
+/*Movies*/
 h3 {
+    font-size: 2em;
     color: var(--color-titles);
     text-align: center;
-    margin: 10px;
+    margin-top: 1px;
 }
 
 h4 {
+    font-size: 1.4em;
     color: var(--color-titles);
     text-align: center;
 }
 
 p {
+    font-size: 1.8em;
     color: var(--color-text);
     text-align: center;
     margin: 10px;
 }
 
-img {
-    width: 100%;
+picture img {
+    width: 80%;
     height: auto;
 }
+
+.movie-one picture,
+.movie-two picture,
+.movie-three picture,
+.movie-four picture,
+.movie-five picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Footer*/
+
 
