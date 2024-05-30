@@ -121,5 +121,15 @@ picture img {
 }
 
 /*Footer*/
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-top: 2px solid var(--color-titles);
 
+}
+.icons img {
+    width: 50px;
+    margin-top: 10px;
+}
 
