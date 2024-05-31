@@ -25,6 +25,8 @@ body {
     align-items: center;
     width: 100%;
     color: var(--color-titles);
+    border-top: 2px solid var(--color-titles);
+    border-bottom: 2px solid var(--color-titles);
 }
 
 .items a {
@@ -48,7 +50,7 @@ h2 {
     text-align: center;
     font-family: "Montserrat ExtraBold 800";
     font-size: 2.1em;
-    top: 2px;
+    padding-top: 15px;
 }
 
 /*Movies*/
