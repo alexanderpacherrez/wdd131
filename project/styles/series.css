@@ -94,8 +94,8 @@ footer {
 
 .icons {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -108,5 +108,6 @@ h5 {
 .icons img {
     width: 50px;
     margin-top: 10px;
+    margin: 10px;
     
 }
