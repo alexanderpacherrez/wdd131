@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #FDFAF2;
+    --color-titles: #FDBB08;
+    --background: #121111;
+    --color-links: #a8ba1c;
+}
+
+/*Header*/
+body {
+    background-color: #121111;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: var(--color-titles);
+}
+
+.items a {
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 30px;
+    margin: 10px;
+}
+
+h1 {
+    color: var(--color-titles);
+    font-size: 3em;
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+    margin-bottom: 1px;
+}
+
+h2 {
+    color: var(--color-titles);
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+    font-size: 2.1em;
+    top: 2px;
+}
+
+/*Movies*/
+h3 {
+    font-size: 2em;
+    color: var(--color-titles);
+    text-align: center;
+    margin-top: 1px;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
+p {
+    font-size: 1.8em;
+    color: var(--color-text);
+    text-align: center;
+    margin: 10px;
+}
+
+picture img {
+    width: 80%;
+    height: auto;
+}
+
+.me picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Footer*/
+footer {
+    border-top: 2px solid var(--color-titles);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-size: 3.4em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
+.icons img {
+    width: 50px;
+    margin-top: 10px;
+    margin: 10px;
+    
+}
+
+@media screen and (min-width: 640px) {
+
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
