@@ -88,13 +88,15 @@ picture img {
 }
 
 /*Footer*/
+footer {
+    border-top: 2px solid var(--color-titles);
+}
+
 .icons {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    border-top: 2px solid var(--color-titles);
     flex-wrap: wrap;
-
 }
 
 h5 {
