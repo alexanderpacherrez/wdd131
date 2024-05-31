@@ -43,6 +43,13 @@ h1 {
     margin-bottom: 1px;
 }
 
+h2 {
+    color: var(--color-titles);
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+    font-size: 2.1em;
+    top: 2px;
+}
 
 /*Movies*/
 h3 {
@@ -86,9 +93,18 @@ picture img {
     justify-content: space-around;
     align-items: flex-end;
     border-top: 2px solid var(--color-titles);
+    flex-wrap: wrap;
 
 }
+
+h5 {
+    font-size: 3.4em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
 .icons img {
     width: 50px;
     margin-top: 10px;
+    
 }
