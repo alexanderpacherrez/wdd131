@@ -49,29 +49,30 @@ h2 {
     color: var(--color-titles);
     text-align: center;
     font-family: "Montserrat ExtraBold 800";
-    font-size: 2.1em;
+    font-size: 2.5em;
     padding-top: 15px;
 }
 
 /*Movies*/
 h3 {
-    font-size: 2em;
+    font-size: 2.4em;
     color: var(--color-titles);
     text-align: center;
     margin-top: 1px;
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: var(--color-titles);
     text-align: center;
 }
 
 p {
-    font-size: 1.8em;
+    font-size: 2.3em;
     color: var(--color-text);
     text-align: center;
     margin: 10px;
+    text-wrap: balance;
 }
 
 picture img {
@@ -87,6 +88,26 @@ picture img {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.actors {
+    text-align: center;
+    text-wrap: balance;
+}
+
+.actors a {
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.actors a:hover {
+    color: var(--color-titles);
+}
+
+.actors a:visited {
+    color: var(--color-titles);
 }
 
 /*Footer*/
