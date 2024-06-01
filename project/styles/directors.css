@@ -87,6 +87,25 @@ picture img {
     padding: 20px;
 }
 
+.directors {
+    text-align: center;
+    text-wrap: balance;
+}
+
+.directors a {
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.directors a:hover {
+    color: var(--color-titles);
+}
+
+.directors a:visited {
+    color: var(--color-titles);
+}
 /*Footer*/
 footer {
     border-top: 2px solid var(--color-titles);
