@@ -111,6 +111,7 @@ p {
     color: var(--color-text);
     text-align: center;
     margin: 10px;
+    margin-bottom: 20px;
 }
 
 picture img {
