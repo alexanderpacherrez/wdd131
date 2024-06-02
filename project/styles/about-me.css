@@ -89,6 +89,43 @@ picture img {
     padding: 20px;
 }
 
+/*Form*/
+.formulario {
+    color: white;
+    font-size: 2em;
+    margin: 30px;
+}
+
+input[type=text] {width: 90%;
+    height: 40px;
+    margin: 20px;
+}
+
+input[type=radio] {
+    margin: 20px;
+    margin-right: 2px;
+    height: 25px;
+    text-wrap: balance;
+
+}
+
+input[type=submit] { display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--color-links);
+    border-radius: 7px;
+    background-color: var(--background);
+    color: white;
+    font-size: 0.6em;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.one {
+    margin: 1px;
+}
+
+
 /*Footer*/
 footer {
     border-top: 2px solid var(--color-titles);
