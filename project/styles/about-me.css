@@ -96,12 +96,16 @@ picture img {
     margin: 30px;
 }
 
+legend {
+    margin: 15px;
+}
+
 input[type=text] {width: 90%;
     height: 40px;
     margin: 20px;
 }
 
-input[type=radio] {
+input[type=radio] {width: auto;
     margin: 20px;
     margin-right: 2px;
     height: 25px;
@@ -109,9 +113,7 @@ input[type=radio] {
 
 }
 
-input[type=submit] { display: flex;
-    justify-content: center;
-    align-items: center;
+input[type=submit] {width: auto;
     border: 3px solid var(--color-links);
     border-radius: 7px;
     background-color: var(--background);
