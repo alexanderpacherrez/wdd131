@@ -90,6 +90,7 @@ picture img {
 .directors {
     text-align: center;
     text-wrap: balance;
+    margin-bottom: 15px;
 }
 
 .directors a {

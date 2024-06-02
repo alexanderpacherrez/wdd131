@@ -93,6 +93,7 @@ picture img {
 .actors {
     text-align: center;
     text-wrap: balance;
+    margin-bottom: 15px;
 }
 
 .actors a {
@@ -100,6 +101,7 @@ picture img {
     text-decoration: none;
     font-size: 1.8em;
     text-align: center;
+    
 }
 
 .actors a:hover {
@@ -109,6 +111,7 @@ picture img {
 .actors a:visited {
     color: var(--color-titles);
 }
+
 
 /*Footer*/
 footer {
