@@ -73,10 +73,11 @@ h2 {
 }
 
 .principal p {
-
+    text-align: center;
     font-size: 1.3em;
     top: 50px;
     color: white;
+    text-wrap: balance;
 }
 
 .principal a {
@@ -85,7 +86,8 @@ h2 {
     bottom: 1px;
     text-decoration: none;
     border: 3px solid var(--color-links);
-    color: var(--color-links)
+    color: var(--color-links);
+    margin: 30px;
     
 }
 
@@ -94,43 +96,6 @@ h2 {
     height: auto;
 }
 
-/*Movies*/
-h3 {
-    font-size: 2em;
-    color: var(--color-titles);
-    text-align: center;
-    margin-top: 1px;
-    
-}
-
-h4 {
-    font-size: 1.4em;
-    color: var(--color-titles);
-    text-align: center;
-}
-
-p {
-    font-size: 1.8em;
-    color: var(--color-text);
-    text-align: center;
-    margin: 10px;
-}
-
-picture img {
-    width: 80%;
-    height: auto;
-}
-
-.movie-one picture,
-.movie-two picture,
-.movie-three picture,
-.movie-four picture,
-.movie-five picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
 /*Footer*/
 footer {
@@ -173,6 +138,7 @@ h5 {
     .principal p {
         font-size: 1.8em;
         top: 60px;
+        text-wrap: balance;
     }
     
     .principal a {
@@ -203,11 +169,12 @@ h5 {
     .principal p {
         font-size: 2.8em;
         top: 100px;
+        text-wrap: balance;
     }
     
     .principal a {
         font-size: 4.8em;
-        bottom: 20px; 
+        bottom: 20px;
     }
 
     .principal img {
