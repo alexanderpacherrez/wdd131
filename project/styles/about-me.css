@@ -59,12 +59,14 @@ h3 {
     color: var(--color-titles);
     text-align: center;
     margin-top: 1px;
+    text-wrap: balance;
 }
 
 h4 {
     font-size: 1.4em;
     color: var(--color-titles);
     text-align: center;
+    text-wrap: balance;
 }
 
 p {
@@ -72,6 +74,7 @@ p {
     color: var(--color-text);
     text-align: center;
     margin: 10px;
+    text-wrap: balance;
 }
 
 picture img {

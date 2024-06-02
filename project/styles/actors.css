@@ -59,12 +59,14 @@ h3 {
     color: var(--color-titles);
     text-align: center;
     margin-top: 1px;
+    text-wrap: balance;
 }
 
 h4 {
     font-size: 1.5em;
     color: var(--color-titles);
     text-align: center;
+    text-wrap: balance;
 }
 
 p {
