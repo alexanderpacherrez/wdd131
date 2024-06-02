@@ -140,6 +140,12 @@ h5 {
     
 }
 
+h6 {
+    font-size: 1.1em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
 @media screen and (min-width: 640px) {
 
     .items {
